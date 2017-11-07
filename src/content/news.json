@@ -1,0 +1,16 @@
+{
+    "news": [
+      {
+        "title": "Title 1",
+        "description": "Some text 1",
+        "tag": "space"
+      },
+      {
+        "title": "Title 2",
+        "description": "Some text 2",
+        "tag": "city"
+      }
+    ]
+  }
+  
+  

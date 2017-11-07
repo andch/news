@@ -1,0 +1,45 @@
+/** postcss-bem-linter: define main-component; weak */
+$color: #555;
+
+.main-component {
+  &__title {
+    color: $color;
+  }
+}
+
+h1 {
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+
+.u-ellipsis {
+  color: $color;
+}
+
+.my-card-container {
+  margin: 24px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: left;
+  justify-content: left;
+}
+
+.mdc-card {
+  height: 350px;
+  width: 350px;
+  margin: 20px;
+}
+
+.button-group {
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  align-content: left;
+  justify-content: left;
+
+  li {
+    padding-right: 20px;
+  }
+}
